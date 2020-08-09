@@ -36,6 +36,7 @@ radio.onReceivedString(function (receivedString) {
 })
 function ChatPlacefunction () {
     let CodeCheck = 0
+    basic.showString("ChatOnline")
     if (CodeCheck == 1 && SendMessage) {
         radio.sendString("A")
     }
