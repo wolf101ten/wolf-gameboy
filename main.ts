@@ -67,6 +67,7 @@ function Menu () {
             . . # . .
             # # # # #
             `)
+        basic.pause(500)
         basic.showLeds(`
             . . # . .
             . # . . .
@@ -74,6 +75,7 @@ function Menu () {
             . # . . .
             . . # . .
             `)
+        basic.pause(500)
         basic.showLeds(`
             . # # . .
             # . . # .
@@ -81,6 +83,7 @@ function Menu () {
             . # . . .
             # # # # .
             `)
+        basic.pause(500)
         basic.showLeds(`
             . . # . .
             . . . # .
@@ -88,6 +91,7 @@ function Menu () {
             . . . # .
             . . # . .
             `)
+        basic.pause(500)
     }
 }
 let SendMessage = false
