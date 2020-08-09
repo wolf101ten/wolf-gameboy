@@ -36,7 +36,88 @@ radio.onReceivedString(function (receivedString) {
 })
 function ChatPlacefunction () {
     let CodeCheck = 0
-    basic.showString("ChatOnline")
+    basic.showString("Chat Online")
+    if (CodeCheck == 1 && SendMessage) {
+        basic.showString(".a")
+    }
+    if (CodeCheck == 2 && SendMessage) {
+        basic.showString("Hello!")
+    }
+    if (CodeCheck == 3 && SendMessage) {
+        radio.sendString("C")
+    }
+    if (CodeCheck == 4 && SendMessage) {
+        radio.sendString("D")
+    }
+    if (CodeCheck == 5 && SendMessage) {
+        radio.sendString("E")
+    }
+    if (CodeCheck == 6 && SendMessage) {
+        radio.sendString("F")
+    }
+    if (CodeCheck == 7 && SendMessage) {
+        radio.sendString("G")
+    }
+    if (CodeCheck == 8 && SendMessage) {
+        radio.sendString("H")
+    }
+    if (CodeCheck == 9 && SendMessage) {
+        radio.sendString("I")
+    }
+    if (CodeCheck == 10 && SendMessage) {
+        radio.sendString("J")
+    }
+    if (CodeCheck == 11 && SendMessage) {
+        radio.sendString("K")
+    }
+    if (CodeCheck == 12 && SendMessage) {
+        radio.sendString("L")
+    }
+    if (CodeCheck == 13 && SendMessage) {
+        radio.sendString("M")
+    }
+    if (CodeCheck == 14 && SendMessage) {
+        radio.sendString("N")
+    }
+    if (CodeCheck == 15 && SendMessage) {
+        radio.sendString("O")
+    }
+    if (CodeCheck == 16 && SendMessage) {
+        radio.sendString("P")
+    }
+    if (CodeCheck == 17 && SendMessage) {
+        radio.sendString("Q")
+    }
+    if (CodeCheck == 18 && SendMessage) {
+        radio.sendString("R")
+    }
+    if (CodeCheck == 19 && SendMessage) {
+        radio.sendString("S")
+    }
+    if (CodeCheck == 20 && SendMessage) {
+        radio.sendString("T")
+    }
+    if (CodeCheck == 21 && SendMessage) {
+        radio.sendString("U")
+    }
+    if (CodeCheck == 22 && SendMessage) {
+        radio.sendString("V")
+    }
+    if (CodeCheck == 23 && SendMessage) {
+        radio.sendString("W")
+    }
+    if (CodeCheck == 24 && SendMessage) {
+        radio.sendString("X")
+    }
+    if (CodeCheck == 25 && SendMessage) {
+        radio.sendString("Y")
+    }
+    if (CodeCheck == 26 && SendMessage) {
+        radio.sendString("Z")
+    }
+    if (CodeCheck == 27 && SendMessage) {
+        radio.sendString("*space*")
+    }
     if (CodeCheck == 1 && SendMessage) {
         radio.sendString("A")
     }
@@ -54,6 +135,69 @@ function ChatPlacefunction () {
     }
     if (CodeCheck == 6 && SendMessage) {
         radio.sendString("F")
+    }
+    if (CodeCheck == 7 && SendMessage) {
+        radio.sendString("G")
+    }
+    if (CodeCheck == 8 && SendMessage) {
+        radio.sendString("H")
+    }
+    if (CodeCheck == 9 && SendMessage) {
+        radio.sendString("I")
+    }
+    if (CodeCheck == 10 && SendMessage) {
+        radio.sendString("J")
+    }
+    if (CodeCheck == 11 && SendMessage) {
+        radio.sendString("K")
+    }
+    if (CodeCheck == 12 && SendMessage) {
+        radio.sendString("L")
+    }
+    if (CodeCheck == 13 && SendMessage) {
+        radio.sendString("M")
+    }
+    if (CodeCheck == 14 && SendMessage) {
+        radio.sendString("N")
+    }
+    if (CodeCheck == 15 && SendMessage) {
+        radio.sendString("O")
+    }
+    if (CodeCheck == 16 && SendMessage) {
+        radio.sendString("P")
+    }
+    if (CodeCheck == 17 && SendMessage) {
+        radio.sendString("Q")
+    }
+    if (CodeCheck == 18 && SendMessage) {
+        radio.sendString("R")
+    }
+    if (CodeCheck == 19 && SendMessage) {
+        radio.sendString("S")
+    }
+    if (CodeCheck == 20 && SendMessage) {
+        radio.sendString("T")
+    }
+    if (CodeCheck == 21 && SendMessage) {
+        radio.sendString("U")
+    }
+    if (CodeCheck == 22 && SendMessage) {
+        radio.sendString("V")
+    }
+    if (CodeCheck == 23 && SendMessage) {
+        radio.sendString("W")
+    }
+    if (CodeCheck == 24 && SendMessage) {
+        radio.sendString("X")
+    }
+    if (CodeCheck == 25 && SendMessage) {
+        radio.sendString("Y")
+    }
+    if (CodeCheck == 26 && SendMessage) {
+        radio.sendString("Z")
+    }
+    if (CodeCheck == 27 && SendMessage) {
+        radio.sendString("*space*")
     }
 }
 input.onButtonPressed(Button.B, function () {
