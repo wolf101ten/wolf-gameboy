@@ -3,9 +3,14 @@ input.onButtonPressed(Button.A, function () {
         SendMessage = true
         SendMessage = false
     } else if (Ingame) {
-    	
+        if (Game1A) {
+        	
+        } else if (Game2A) {
+        	
+        }
     } else {
-    	
+        Game1A = true
+        Game1()
     }
 })
 input.onButtonPressed(Button.AB, function () {
@@ -17,14 +22,14 @@ input.onButtonPressed(Button.AB, function () {
         Ingame = true
         basic.showString("Wolf Chat")
         basic.showString("Chat to MicroBits running: Wolf OS G Lite Version:")
-        basic.showString("" + (WolfVersionNumber))
+        basic.showString("" + WolfVersionNumber)
         basic.showString("Or up to 1.0")
         radio.setGroup(47)
         basic.showString("Messages are sent in bits...")
         basic.showString("Remember to keep track of the bits.")
         ChatPlace = true
         radio.sendString("A MicroBit Running Wolf OS G Version:")
-        radio.sendString("" + (WolfVersionNumber))
+        radio.sendString("" + WolfVersionNumber)
         radio.sendString("Is online!")
         ChatPlacefunction()
     }
@@ -37,6 +42,13 @@ radio.onReceivedString(function (receivedString) {
 function ChatPlacefunction () {
     let CodeCheck = 0
     basic.showString("Chat Online")
+    basic.showLeds(`
+        . . . . .
+        . . . . #
+        . . . # .
+        # . # . .
+        . # . . .
+        `)
     if (CodeCheck == 1 && SendMessage) {
         basic.showString(".a")
     }
@@ -102,7 +114,6 @@ function ChatPlacefunction () {
     }
     if (CodeCheck == 22 && SendMessage) {
         basic.showString(".v")
-    
     }
     if (CodeCheck == 23 && SendMessage) {
         basic.showString(".w")
@@ -240,10 +251,30 @@ function Menu () {
         basic.pause(500)
     }
 }
+function Game1 () {
+    let Highscore_GameA: number;
+if (Game1A) {
+        Highscore_GameA = 0
+        basic.showString("Snake")
+        basic.showString("Your Highscore is:")
+        basic.showString("" + Highscore_GameA)
+        Alive = true
+        while (Alive) {
+        	
+        }
+    }
+}
 let SendMessage = false
 let ChatPlace = false
 let Ingame = false
 let WolfVersionNumber = 0
+let Game1A = false
+let Game2A = false
+let Alive = false
+let snake = 0
+Alive = false
+Game2A = false
+Game1A = false
 WolfVersionNumber = 0.1
 Ingame = false
 ChatPlace = false

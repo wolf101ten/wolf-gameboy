@@ -1,6 +1,5 @@
 {
     "name": "Wolf Gameboy",
-    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,7 +8,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
@@ -17,7 +17,7 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
             "microbit-dal": {
