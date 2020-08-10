@@ -41,82 +41,83 @@ function ChatPlacefunction () {
         basic.showString(".a")
     }
     if (CodeCheck == 2 && SendMessage) {
-        basic.showString("Hello!")
+        basic.showString(".b")
     }
     if (CodeCheck == 3 && SendMessage) {
-        radio.sendString("C")
+        basic.showString(".c")
     }
     if (CodeCheck == 4 && SendMessage) {
-        radio.sendString("D")
+        basic.showString(".d")
     }
     if (CodeCheck == 5 && SendMessage) {
-        radio.sendString("E")
+        basic.showString(".e")
     }
     if (CodeCheck == 6 && SendMessage) {
-        radio.sendString("F")
+        basic.showString(".f")
     }
     if (CodeCheck == 7 && SendMessage) {
-        radio.sendString("G")
+        basic.showString(".g")
     }
     if (CodeCheck == 8 && SendMessage) {
-        radio.sendString("H")
+        basic.showString(".h")
     }
     if (CodeCheck == 9 && SendMessage) {
-        radio.sendString("I")
+        basic.showString(".i")
     }
     if (CodeCheck == 10 && SendMessage) {
-        radio.sendString("J")
+        basic.showString(".j")
     }
     if (CodeCheck == 11 && SendMessage) {
-        radio.sendString("K")
+        basic.showString(".k")
     }
     if (CodeCheck == 12 && SendMessage) {
-        radio.sendString("L")
+        basic.showString(".l")
     }
     if (CodeCheck == 13 && SendMessage) {
-        radio.sendString("M")
+        basic.showString(".m")
     }
     if (CodeCheck == 14 && SendMessage) {
-        radio.sendString("N")
+        basic.showString(".n")
     }
     if (CodeCheck == 15 && SendMessage) {
-        radio.sendString("O")
+        basic.showString(".o")
     }
     if (CodeCheck == 16 && SendMessage) {
-        radio.sendString("P")
+        basic.showString(".p")
     }
     if (CodeCheck == 17 && SendMessage) {
-        radio.sendString("Q")
+        basic.showString(".q")
     }
     if (CodeCheck == 18 && SendMessage) {
-        radio.sendString("R")
+        basic.showString(".r")
     }
     if (CodeCheck == 19 && SendMessage) {
-        radio.sendString("S")
+        basic.showString(".s")
     }
     if (CodeCheck == 20 && SendMessage) {
-        radio.sendString("T")
+        basic.showString(".t")
     }
     if (CodeCheck == 21 && SendMessage) {
-        radio.sendString("U")
+        basic.showString(".u")
     }
     if (CodeCheck == 22 && SendMessage) {
-        radio.sendString("V")
+        basic.showString(".v")
+    
     }
     if (CodeCheck == 23 && SendMessage) {
-        radio.sendString("W")
+        basic.showString(".w")
     }
     if (CodeCheck == 24 && SendMessage) {
-        radio.sendString("X")
+        basic.showString(".x")
     }
     if (CodeCheck == 25 && SendMessage) {
-        radio.sendString("Y")
+        basic.showString(".y")
     }
     if (CodeCheck == 26 && SendMessage) {
-        radio.sendString("Z")
+        basic.showString(".z")
     }
     if (CodeCheck == 27 && SendMessage) {
-        radio.sendString("*space*")
+        radio.sendString("-space-")
     }
     if (CodeCheck == 1 && SendMessage) {
         radio.sendString("A")
